@@ -32,5 +32,14 @@ public class StringsDemo {
 
         System.out.println("Strings.padEnd(\"7\", 4, '0'):  " + Strings.padEnd("7", 4, '0'));
         System.out.println("Strings.padEnd(\"abc\", 1, '!'):  " + Strings.padEnd("abc", 1, '!'));
+
+        System.out.println("----------------------------------------");
+
+        System.out.println("Strings.repeat(\"abc\", 3):  " + Strings.repeat("abc", 3));
+        System.out.println("Strings.repeat(\"abc\", 0):  " + Strings.repeat("abc", 0));  // repeat 0 times will return empty string ""
+        System.out.println("Strings.repeat(\"\", 3):  " + Strings.repeat("", 3));
+        System.out.println("Strings.repeat(\"\", 0):  " + Strings.repeat("", 0));
+//        System.out.println("Strings.repeat(null, 3):  " + Strings.repeat(null, 3));   // throws NPE
+//        System.out.println("Strings.repeat(null, 0):  " + Strings.repeat(null, 0));   // throws NPE
     }
 }
